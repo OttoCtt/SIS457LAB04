@@ -11,12 +11,14 @@ ABrick::ABrick()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	SM_Brick = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Brick"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> Brick(TEXT("StaticMesh'/Game/Meshes/SM_Brick.SM_Brick'"));
+	SM_Brick = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Brick_0"));
+	RootComponent = SM_Brick;
+	SM_Brick->SetStaticMesh(Brick.Object);
 	SM_Brick->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	BoxCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("Box Collision"));
+	BoxCollision->SetupAttachment(RootComponent);
 	BoxCollision->SetBoxExtent(FVector(25.0f, 10.0f, 10.0f));
-	RootComponent = BoxCollision;
 }
 
 // Called when the game starts or when spawned

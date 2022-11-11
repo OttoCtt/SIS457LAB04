@@ -16,7 +16,9 @@ class ARCANOID_API APaddle : public APawn
 public:
 	// Sets default values for this pawn's properties
 	APaddle();
-
+	//The instance of this Class
+	UPROPERTY()
+		APaddle* Instance;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

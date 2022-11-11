@@ -1,6 +1,6 @@
-D:\Usuarios\Datos_Otto_Ch\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid\Definitions.Arcanoid.h
-D:\Usuarios\Datos_Otto_Ch\Documents\Unreal Projects\Arcanoid\Source\Arcanoid\Paddle.h
-D:\Usuarios\Datos_Otto_Ch\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\UE4Editor\Inc\Arcanoid\Paddle.generated.h
+D:\Usuarios\Datos_Otto_Ch\Documents\Unreal Projects\Arcanoide\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid\Definitions.Arcanoid.h
+D:\Usuarios\Datos_Otto_Ch\Documents\Unreal Projects\Arcanoide\Source\Arcanoid\Paddle.h
+D:\Usuarios\Datos_Otto_Ch\Documents\Unreal Projects\Arcanoide\Intermediate\Build\Win64\UE4Editor\Inc\Arcanoid\Paddle.generated.h
 D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/FloatingPawnMovement.h
 D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
 D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
@@ -11,3 +11,12 @@ D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Intermediate\Build\Win64\UE4E
 D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
 D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
 D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FloatingPawnMovement.generated.h
+D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+D:\Program Files\Epic Games\UE_4.27\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

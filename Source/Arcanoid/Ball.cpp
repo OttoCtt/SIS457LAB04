@@ -9,9 +9,11 @@
 ABall::ABall()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> Ball(TEXT("StaticMesh'/Game/Meshes/SM_Ball.SM_Ball'"));
 	PrimaryActorTick.bCanEverTick = true;
 	SM_Ball = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Ball"));
 	RootComponent = SM_Ball;
+	SM_Ball->SetStaticMesh(Ball.Object);
 	SM_Ball->SetSimulatePhysics(true);
 	SM_Ball->SetEnableGravity(false);
 	SM_Ball->SetConstraintMode(EDOFMode::XZPlane);

@@ -16,18 +16,18 @@ struct FHitResult;
 #endif
 #define ARCANOID_Brick_generated_h
 
-#define Arcanoid_Source_Arcanoid_Brick_h_12_SPARSE_DATA
-#define Arcanoid_Source_Arcanoid_Brick_h_12_RPC_WRAPPERS \
+#define Arcanoide_Source_Arcanoid_Brick_h_12_SPARSE_DATA
+#define Arcanoide_Source_Arcanoid_Brick_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
-#define Arcanoid_Source_Arcanoid_Brick_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Arcanoide_Source_Arcanoid_Brick_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
-#define Arcanoid_Source_Arcanoid_Brick_h_12_INCLASS_NO_PURE_DECLS \
+#define Arcanoide_Source_Arcanoid_Brick_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABrick(); \
 	friend struct Z_Construct_UClass_ABrick_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(ABrick)
 
 
-#define Arcanoid_Source_Arcanoid_Brick_h_12_INCLASS \
+#define Arcanoide_Source_Arcanoid_Brick_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesABrick(); \
 	friend struct Z_Construct_UClass_ABrick_Statics; \
@@ -45,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(ABrick)
 
 
-#define Arcanoid_Source_Arcanoid_Brick_h_12_STANDARD_CONSTRUCTORS \
+#define Arcanoide_Source_Arcanoid_Brick_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABrick(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABrick) \
@@ -58,7 +58,7 @@ private: \
 public:
 
 
-#define Arcanoid_Source_Arcanoid_Brick_h_12_ENHANCED_CONSTRUCTORS \
+#define Arcanoide_Source_Arcanoid_Brick_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABrick(ABrick&&); \
@@ -69,32 +69,32 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABrick)
 
 
-#define Arcanoid_Source_Arcanoid_Brick_h_12_PRIVATE_PROPERTY_OFFSET \
+#define Arcanoide_Source_Arcanoid_Brick_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SM_Brick() { return STRUCT_OFFSET(ABrick, SM_Brick); } \
 	FORCEINLINE static uint32 __PPO__BoxCollision() { return STRUCT_OFFSET(ABrick, BoxCollision); }
 
 
-#define Arcanoid_Source_Arcanoid_Brick_h_9_PROLOG
-#define Arcanoid_Source_Arcanoid_Brick_h_12_GENERATED_BODY_LEGACY \
+#define Arcanoide_Source_Arcanoid_Brick_h_9_PROLOG
+#define Arcanoide_Source_Arcanoid_Brick_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arcanoid_Source_Arcanoid_Brick_h_12_PRIVATE_PROPERTY_OFFSET \
-	Arcanoid_Source_Arcanoid_Brick_h_12_SPARSE_DATA \
-	Arcanoid_Source_Arcanoid_Brick_h_12_RPC_WRAPPERS \
-	Arcanoid_Source_Arcanoid_Brick_h_12_INCLASS \
-	Arcanoid_Source_Arcanoid_Brick_h_12_STANDARD_CONSTRUCTORS \
+	Arcanoide_Source_Arcanoid_Brick_h_12_PRIVATE_PROPERTY_OFFSET \
+	Arcanoide_Source_Arcanoid_Brick_h_12_SPARSE_DATA \
+	Arcanoide_Source_Arcanoid_Brick_h_12_RPC_WRAPPERS \
+	Arcanoide_Source_Arcanoid_Brick_h_12_INCLASS \
+	Arcanoide_Source_Arcanoid_Brick_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Arcanoid_Source_Arcanoid_Brick_h_12_GENERATED_BODY \
+#define Arcanoide_Source_Arcanoid_Brick_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arcanoid_Source_Arcanoid_Brick_h_12_PRIVATE_PROPERTY_OFFSET \
-	Arcanoid_Source_Arcanoid_Brick_h_12_SPARSE_DATA \
-	Arcanoid_Source_Arcanoid_Brick_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Arcanoid_Source_Arcanoid_Brick_h_12_INCLASS_NO_PURE_DECLS \
-	Arcanoid_Source_Arcanoid_Brick_h_12_ENHANCED_CONSTRUCTORS \
+	Arcanoide_Source_Arcanoid_Brick_h_12_PRIVATE_PROPERTY_OFFSET \
+	Arcanoide_Source_Arcanoid_Brick_h_12_SPARSE_DATA \
+	Arcanoide_Source_Arcanoid_Brick_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Arcanoide_Source_Arcanoid_Brick_h_12_INCLASS_NO_PURE_DECLS \
+	Arcanoide_Source_Arcanoid_Brick_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -102,7 +102,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ARCANOID_API UClass* StaticClass<class ABrick>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Arcanoid_Source_Arcanoid_Brick_h
+#define CURRENT_FILE_ID Arcanoide_Source_Arcanoid_Brick_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

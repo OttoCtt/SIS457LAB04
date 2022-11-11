@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARCANOID_ArcanoidGameModeBase_generated_h
 
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_SPARSE_DATA
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_RPC_WRAPPERS
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_SPARSE_DATA
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_RPC_WRAPPERS
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArcanoidGameModeBase(); \
 	friend struct Z_Construct_UClass_AArcanoidGameModeBase_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AArcanoidGameModeBase)
 
 
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_INCLASS \
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAArcanoidGameModeBase(); \
 	friend struct Z_Construct_UClass_AArcanoidGameModeBase_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AArcanoidGameModeBase)
 
 
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArcanoidGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArcanoidGameModeBase) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArcanoidGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArcanoidGameModeBase)
 
 
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_12_PROLOG
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_12_PROLOG
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_SPARSE_DATA \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_RPC_WRAPPERS \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_INCLASS \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_SPARSE_DATA \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_RPC_WRAPPERS \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_INCLASS \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_GENERATED_BODY \
+#define Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_SPARSE_DATA \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_SPARSE_DATA \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,7 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ARCANOID_API UClass* StaticClass<class AArcanoidGameModeBase>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Arcanoid_Source_Arcanoid_ArcanoidGameModeBase_h
+#define CURRENT_FILE_ID Arcanoide_Source_Arcanoid_ArcanoidGameModeBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
